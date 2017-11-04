@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,base64
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EmqEzD1K8LXFGMoYK41b.VHH0q0Dhr8pSns5/+RsmgW.myyPG2tCVYlKjHbRKoM9YYXpFhav6zFd+8VstJpxhnw=")
 cl.loginResult()
 
 ki = kk = kc = cl 
@@ -21,7 +21,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=[""]
+admin=["ube187443474747c3ec352e7efeb48c1b"]
 wait = {
     'contact':True,
     'autoJoin':True,
@@ -72,9 +72,9 @@ def autolike():
           try:    
             #-----------------------------[JANGAN DIEDIT - Hargai Saya]-----------------------------#
             cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Autolike By Farzain - zFz\n\nSubscribe Channel Saya yak kalau mau bisa kayak gini\nhttps://youtube.com/c/zfz48")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Kevin.. add situ.sehat")
             #-----------------------------[JANGAN DIEDIT - Hargai Saya]-----------------------------#
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"UBAH_INI_SESUAI_KEINGINAN_KALIAN")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Kevin.. add situ.sehat")
             print "Like"
           except:
             pass
