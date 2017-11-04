@@ -9,6 +9,10 @@ cl = LINETCR.LINE()
 cl.login(token="EmqEzD1K8LXFGMoYK41b.VHH0q0Dhr8pSns5/+RsmgW.myyPG2tCVYlKjHbRKoM9YYXpFhav6zFd+8VstJpxhnw=")
 cl.loginResult()
 
+kk = LINETCR.LINE()
+kk.login(token="Em6S7JQ5Iec7vlCFNN7d.UvZQ8iaX1kDhGbAShThZ3q.MLJuJlk/BtpBALulh8p2G3uzQbU9WDloeYzvRLs3jlA=")
+kk.loginResult()
+
 ki = kk = kc = cl 
 
 print "login success"
@@ -72,7 +76,7 @@ def autolike():
           try:    
             #-----------------------------[JANGAN DIEDIT - Hargai Saya]-----------------------------#
             cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Kevin.. add situ.sehat")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Like Backnya Mana Nih, hehe")
             #-----------------------------[JANGAN DIEDIT - Hargai Saya]-----------------------------#
             cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Kevin.. add situ.sehat")
             print "Like"
