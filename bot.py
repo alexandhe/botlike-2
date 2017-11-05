@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,base64
 
 cl = LINETCR.LINE()
-cl.login(token="EmqEzD1K8LXFGMoYK41b.VHH0q0Dhr8pSns5/+RsmgW.myyPG2tCVYlKjHbRKoM9YYXpFhav6zFd+8VstJpxhnw=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = kk = kc = cl 
@@ -41,7 +41,7 @@ wait = {
     "wblacklist":False,
     "dblacklist":False,
     "protectionOn":True,
-    "atjointicket":False
+    "atjointicket":True
     }
 
 wait2 = {
